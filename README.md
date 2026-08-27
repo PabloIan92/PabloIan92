@@ -8,6 +8,7 @@ I build production-oriented tools for ISP and operational teams — scheduling p
 - 🛠️ Python · FastAPI · Flask · JavaScript/TypeScript · React · Next.js
 - 🗄️ PostgreSQL · Supabase · MongoDB · SQLite · Docker · GitHub Actions · Vercel
 - 🔌 REST APIs, Webhooks, n8n, Botmaker, Google Apps Script, Chatwoot workflows
+- 🤖 Chatbots on WhatsApp Business Platform (Meta Cloud API), Telegram, and web widgets
 - 📡 ISP operations: MikroTik RouterOS, UniFi, NOC monitoring, PPPoE, QoS, DHCP, NAT
 
 ## Selected projects
@@ -15,7 +16,7 @@ I build production-oriented tools for ISP and operational teams — scheduling p
 - **[Fiakto](https://github.com/PabloIan92/Fiakto)** — Marketplace built with Next.js and Firebase.
 - **[sacabollos-aguila-blanca](https://github.com/PabloIan92/sacabollos-aguila-blanca)** — Operational app for an auto body shop, with photo uploads and Supabase backend.
 - **[isp-network-monitor](https://github.com/PabloIan92/isp-network-monitor)** — Multi-vendor monitoring dashboard unifying MikroTik, AirControl, Netonix, EdgeSwitch, SwOS, and OLTCloud into one operational view (Python, Flask, SQLite, systemd).
-- **[customerservice-sales-bot-skill](https://github.com/PabloIan92/customerservice-sales-bot-skill)** — Conversational automation skill for customer service and sales flows.
+- **[customerservice-sales-bot-skill](https://github.com/PabloIan92/customerservice-sales-bot-skill)** — Self-hosted customer service + sales chatbot on n8n and Chatwoot, wired to the WhatsApp Business Platform (Meta Cloud API), Telegram, and web/email channels, including migrating a WhatsApp number off a BSP and safely editing a live automation workflow through its API.
 - **[gas-pos-inventory-saas](https://github.com/PabloIan92/gas-pos-inventory-saas)** — Point-of-sale and inventory SaaS built on Google Apps Script.
 
 Also built (private, mentioned for context):
