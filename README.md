@@ -24,7 +24,7 @@ Also built (private, mentioned for context):
 
 ## Experience
 
-- **Automation Engineer & Freelance Developer** — Self-employed · Remote · Jul 2023–Present
+- **Automation & Freelance Developer** — Self-employed · Remote · Jul 2023–Present
 - **Administrative and Technical Supervisor** — Lemmon Internet SRL · Rosario · Nov 2019–Present
 - **AI Training Contributor** — Outlier · Freelance · Remote · Feb 2024–Apr 2025
 
