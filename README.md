@@ -1,4 +1,6 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Pablo%20Ian%20Laurino&fontSize=50&fontColor=ffffff&desc=Automation%20%26%20Full-Stack%20Developer&descAlignY=75&descSize=20&animation=fadeIn)
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Pablo Ian Laurino — Automation & Full-Stack Developer, based in Rosario, Argentina, working remotely">
+</p>
 
 I build production-oriented tools for ISP and operational teams — scheduling platforms, inventory systems, monitoring dashboards, and WhatsApp/CRM automations. 15+ years across technical support, ISP operations, and team leadership, with hands-on freelance development since 2023. Self-taught, project-driven — the repos below show the range better than a resume does.
 

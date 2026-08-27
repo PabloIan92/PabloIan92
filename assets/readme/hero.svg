@@ -1,0 +1,102 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Pablo Ian Laurino — Automation &amp; Full-Stack Developer</title>
+  <desc id="hero-desc">Dark sci-fi HUD banner with a perspective grid and glowing network motif representing ISP operations and automation workflows.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#04050c"/>
+      <stop offset="0.55" stop-color="#0c0a24"/>
+      <stop offset="1" stop-color="#1c0e38"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5ee7ff"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.86" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#5ee7ff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5ee7ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowMagenta" cx="0.7" cy="0.9" r="0.5">
+      <stop offset="0" stop-color="#c084fc" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fadeBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#04050c" stop-opacity="0"/>
+      <stop offset="1" stop-color="#04050c" stop-opacity="0.9"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#glowCyan)"/>
+    <rect width="1200" height="320" fill="url(#glowMagenta)"/>
+
+    <!-- perspective floor grid, vanishing toward upper-right -->
+    <g stroke="#5ee7ff" stroke-opacity="0.14" stroke-width="1">
+      <line x1="560" y1="320" x2="1010" y2="40"/>
+      <line x1="700" y1="320" x2="1060" y2="40"/>
+      <line x1="850" y1="320" x2="1110" y2="40"/>
+      <line x1="1000" y1="320" x2="1160" y2="40"/>
+      <line x1="1150" y1="320" x2="1200" y2="120"/>
+      <line x1="560" y1="320" x2="1200" y2="230"/>
+      <line x1="600" y1="255" x2="1200" y2="175"/>
+      <line x1="660" y1="195" x2="1200" y2="130"/>
+      <line x1="740" y1="145" x2="1200" y2="98"/>
+      <line x1="840" y1="105" x2="1200" y2="72"/>
+    </g>
+
+    <!-- glowing constellation / circuit nodes -->
+    <g stroke="url(#accent)" stroke-opacity="0.55" stroke-width="1.3" filter="url(#softGlow)">
+      <line x1="660" y1="95" x2="760" y2="62"/>
+      <line x1="660" y1="95" x2="715" y2="150"/>
+      <line x1="715" y1="150" x2="815" y2="118"/>
+      <line x1="815" y1="118" x2="760" y2="62"/>
+      <line x1="815" y1="118" x2="915" y2="68"/>
+      <line x1="815" y1="118" x2="895" y2="188"/>
+      <line x1="715" y1="150" x2="775" y2="228"/>
+      <line x1="775" y1="228" x2="895" y2="188"/>
+      <line x1="895" y1="188" x2="1000" y2="150"/>
+      <line x1="915" y1="68" x2="1020" y2="88"/>
+      <line x1="1020" y1="88" x2="1000" y2="150"/>
+      <line x1="1000" y1="150" x2="1100" y2="182"/>
+      <line x1="1020" y1="88" x2="1110" y2="58"/>
+    </g>
+    <g fill="url(#accent)" filter="url(#softGlow)">
+      <circle cx="660" cy="95" r="4.5"/>
+      <circle cx="760" cy="62" r="3.2"/>
+      <circle cx="715" cy="150" r="5.5"/>
+      <circle cx="815" cy="118" r="6.5"/>
+      <circle cx="915" cy="68" r="4"/>
+      <circle cx="895" cy="188" r="6"/>
+      <circle cx="775" cy="228" r="3.2"/>
+      <circle cx="1000" cy="150" r="5"/>
+      <circle cx="1020" cy="88" r="4"/>
+      <circle cx="1100" cy="182" r="4.5"/>
+      <circle cx="1110" cy="58" r="3"/>
+    </g>
+
+    <rect width="1200" height="90" y="230" fill="url(#fadeBottom)"/>
+
+    <!-- HUD corner brackets -->
+    <g stroke="#5ee7ff" stroke-opacity="0.55" stroke-width="2" fill="none">
+      <path d="M24 46 L24 24 L46 24"/>
+      <path d="M1176 46 L1176 24 L1154 24"/>
+      <path d="M24 274 L24 296 L46 296"/>
+      <path d="M1176 274 L1176 296 L1154 296"/>
+    </g>
+
+    <!-- identity block -->
+    <text x="68" y="128" font-family="Consolas,Menlo,monospace" font-size="15" letter-spacing="2" fill="#5ee7ff" opacity="0.85">&gt; WHOAMI</text>
+    <text x="68" y="176" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="50" font-weight="700" fill="#f5f7fb">Pablo Ian Laurino</text>
+    <text x="68" y="216" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="21" font-weight="500" fill="url(#accent)">Automation &amp; Full-Stack Developer</text>
+    <text x="68" y="250" font-family="Consolas,Menlo,monospace" font-size="15" fill="#9aa4bf">Python · FastAPI · React · Next.js · APIs · ISP Operations</text>
+    <text x="68" y="278" font-family="Consolas,Menlo,monospace" font-size="13" fill="#7986a8">Rosario, Argentina · Remote</text>
+  </g>
+</svg>
